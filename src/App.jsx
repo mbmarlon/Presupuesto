@@ -46,7 +46,7 @@ function App() {
 
   useEffect(() =>{
     const presupuestoLS = Number(localStorage.getItem('presupuesto')) ?? 0
-    setIsValidPresupuesto(true);
+     setIsValidPresupuesto(presupuestoLS);
 
   },[])
 
