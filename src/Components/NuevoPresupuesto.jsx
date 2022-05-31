@@ -29,15 +29,14 @@ const NuevoPresupuesto = ({
     <div>
         <form onSubmit={handlePresupuesto} className='formulario'>
             <div className='campo'>
-                <label htmlFor="">Presupuesto inicial</label>
-
+                <label>Presupuesto inicial</label>
                 <input 
                     type="number"
                     className='nuevo-presupuesto'
                     placeholder='Añade el presupuesto'
                     /*evento cambio para actualizar prop */
                     onChange={e => setPresupuesto(Number(e.target.value))}
-                    value ={presupuesto}
+                    value ={presupuesto == 0 ? '': presupuesto}
                 />
             </div>
             <input type="submit" value="Añadir"/>

@@ -77,7 +77,7 @@ const Modal = ({
           <label htmlFor="nombre">Gasto</label>
             <input 
             type="text"
-            placeholder='¿Qué gastaste?'
+            placeholder='¿En qué gastaste el dinero?'
             id='nombre'
             value={nombre}
             onChange={e => setNombre(e.target.value)}
@@ -90,10 +90,11 @@ const Modal = ({
             id='cantidad'
             value={cantidad}
             onChange={e => setCantidad(Number(e.target.value))}
+            min='1'
             />
 
             <div className='campo'>
-              <label htmlFor="categoria">categoria</label>
+              <label htmlFor="categoria">categoría</label>
               <select 
               name="categoria" 
               id=""

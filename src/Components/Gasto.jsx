@@ -23,7 +23,7 @@ const diccionarioIconos = {
     comida: IconoComida,
     transporte: IconoTransporte,
     casa: IconoCasa,
-    entrtenimiento: IconoEntretenimiento,
+    entretenimiento: IconoEntretenimiento,
     suscripciones: IconoSuscripciones
 }
 
