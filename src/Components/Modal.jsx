@@ -105,7 +105,7 @@ const Modal = ({
                 <option value="comida">Comida</option>
                 <option value="transporte">Transporte</option>
                 <option value="casa">Casa</option>
-                <option value="entrtenimiento">Entrtenimiento</option>
+                <option value="entretenimiento">Entretenimiento</option>
                 <option value="suscripciones">Suscripciones</option>
               </select>
             </div>

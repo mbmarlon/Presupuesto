@@ -37,6 +37,7 @@ const NuevoPresupuesto = ({
                     placeholder='Añade el presupuesto'
                     /*evento cambio para actualizar prop */
                     onChange={e => setPresupuesto(Number(e.target.value))}
+                    value ={presupuesto}
                 />
             </div>
             <input type="submit" value="Añadir"/>
